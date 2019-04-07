@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+  <title>Weather Factors Humidity </title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+
+<body>
+
+
+<!-- *****************Navigation Bar ******* -->
+   <div class="topnav">   
+    <div class="row">
+  <div class="col-sm-2"><a href="index.html">City Weather Factors</a></div>
+  <div class="col-sm-5"> </div>
+  <div class="col-sm-2"> 
+     <div class="dropdown">
+      <button class="dropbtn">Plots
+        <i class="fa fa-caret-down"></i>
+      </button>
+       <div class="dropdown-content" >
+        <a href="cityLatMTemp.html">City vs Temperature</a>
+        <a href="cityHumidity.html">City Latitude vs Humidity</a>
+        <a href="cityMCloudiness.html">City Latitude vs Max Cloudiness</a>
+        <a href="cityWSpeed.html">City Latitude vs Wind Speed</a>
+       </div> 
+      </div>
+    </div>
+     <div class="col-sm-2">   
+    <a href="comparison.html">Comparison</a></div>
+  <div class="col-sm-1"> <a href="data.html">Data</a></div>
+    <div> <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a></div>
+</div>
+</div> 
+<div class="w3-container w3-teal">
+  <h1> City Latitude vs Humidity </h1>
+</div>
+<br>
+<table width=90% cellpadding="20px">
+          <th> </th>
+        <tr>
+          <td style=width:60%  align=center padding=30px> 
+            <a href="images/fig2.png" target="_blank"><img src="images/fig2.png" alt="City Latitude vs Humidity" height="300" width="350" target="_blank"></a>
+          <figcaption>City Latitude vs Humidity.</figcaption> </td>
+          <td padding=20px>Humidity is usually associated with warm climes and indeed we did see the majority of humidity nearer to the equators than the poles. The results were more skewed towards the northern hemisphere. There seemed to be a heavier concentration of reported humidity. The southern hemisphere is more sparsely population.  Is the difference in humidity due to humans having less impact or there being less weather reporting stations?</td>
+        </tr>
+
+      </table>
+     <div class="container-fluid">
+    <div class="row">
+    <div class="col-xs-12 col-s-12 col-md-1 col-lg-4" style="background-color:gray;"><font size=2px><b><i>Links: Latitude vs </i></b></font></a></div>
+      <div class="col-xs-12 col-s-12 col-md-2 col-lg-2" style="background-color:gray;">.<a href="cityLatMTemp.html"><font size=2px><b><i>Max Temperatures</i></b>b></font></a></div>
+       <div class="col-xs-12 col-s-12 col-md-2 col-lg-2" style="background-color:gray;">.<a href="cityHumidity.html"><font size=2px><b><i>Humidity</i></b></font></a></div>
+        <div class="col-xs-12 col-s-12 col-md-2 col-lg-2" style="background-color:gray;">.<a href="cityMCloudiness.html"><font size=2px><b><i>Cloudiness</i></b></font></a></div>
+         <div class="col-xs-12 col-s-12 col-md-2 col-lg-2" style="background-color:gray;">.<a href="cityWSpeed.html"><font size=2px><b><i>Wind Speed</i></b></font></a></div>
+</div>
+</div>
+<!--footer-->
+<div class="footer">
+  <p></p>
+</div>
+</body>
+
+</html>
